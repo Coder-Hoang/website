@@ -1,0 +1,282 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    width: 100%; /* Adjust width as needed */
+    height: 75px; /* Adjust height as needed */
+    background-color: #0077FF; /* Set background color */
+  }  
+
+.header-ch {
+    font-size: 35px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.about-us {
+    font-size: 25px;
+    position: absolute;
+    color: #00FF9A;
+    top: 25px;
+    left: 1550px;
+}
+
+.coder-hoang{
+    font-size: 72px;
+    text-align: center;
+    color: #FF3030;
+    position: absolute;
+    top: 185px;
+    left: 635px;
+}
+
+.website {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 300px;
+    left: 640px;
+}
+
+.game-engine .in-here{
+    font-size: 75px;
+    position: absolute;
+    left: 25%;
+    top: 320px;
+}
+
+.game-engine .pygame-logo {
+    width: 730px;
+    height: auto;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+
+.game-engine .bevy-logo {
+    width: 730px;
+    height: auto;
+    position: absolute;
+    left: 870px;
+    top: 500px;
+}
+
+.container {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Align items vertically to the center */
+    justify-content: space-around; /* Distribute space around the items */
+  }
+
+.container .profile-image { 
+    width: 100px;
+    height: 100px;
+    position: absolute; /* Allow for precise positioning */
+    left: 800px; /* Adjust to half the image's width to place on the border */
+    top: 385px;
+    transform: translateY(-50%); /* Vertically center the image */
+    z-index: 2; /* Ensure image is on top */
+    left: 775px;
+    top: 1000px;
+  }
+
+.container .curved-rectangle {
+    width: 450px; /* Adjust width as needed */
+    height: 325px; /* Adjust height as needed */
+    background-color: #000000; /* Background color */
+    border-radius: 5% 5% 5% 5%; /* Border radius for the curve */
+    margin: 0 auto;  /* Center the rectangle horizontally */
+    position: absolute;
+    left: 600px;
+    top: 1000px;
+}
+
+.about-me {
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 620px;
+    top: 1050px;
+}
+
+.since{
+    font-size: 30px;
+    position: absolute;
+    color: whitesmoke;
+    top: 1090px;
+    left: 625px;
+}
+
+.my-engine {
+    color: aquamarine;
+    font-size: 26px;
+    position: absolute;
+    top: 1140px;
+    left: 630px;
+}
+
+.itch {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 1200px;
+    left: 630px;
+}
+
+.youtube {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 1200px;
+    left: 730px;
+}
+
+.discord {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 1200px;
+    left: 830px;
+}
+
+.github {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 1200px;
+    left: 930px;
+}
+
+.python-project {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 1400px;
+    left: 675px;
+}
+
+.pydew {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 1%;
+}
+.mario {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 21%;
+}
+
+.doom {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 41%;
+}
+
+.zelda {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 61%;
+}
+
+.pirate {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 1800px;
+    left: 81%;
+}
+
+.rust {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 2100px;
+    left: 675px;
+}
+
+.star-wars {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 1%;
+}
+.ai-fight {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 21%;
+}
+
+.tree-game {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 41%;
+}
+
+.blob-eater {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 61%;
+}
+
+.shooting-game {
+    width: 19%;
+    height: auto;
+    position: absolute;
+    top: 2500px;
+    left: 81%;
+}
+
+.note{
+    position: absolute;
+    top: 3000px;
+    left: 600px;
+}
+
+.contact{
+    font-size: 50px;
+    position: absolute;
+    top: 3100px;
+    left: 615px;
+}
+
+.email{
+    font-size: 50px;
+    position: absolute;
+    top: 3200px;
+    left: 575px;
+}
+
+.note-free{
+    position: absolute;
+    top: 3300px;
+    left: 425px;
+}
+
+.version{
+    position: absolute;
+    top: 3350px;
+    left: 1550px;
+}
+
+.last-update{
+    position: absolute;
+    top: 3375px;
+    left: 1290px;
+}
